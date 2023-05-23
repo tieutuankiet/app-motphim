@@ -1,0 +1,119 @@
+.header{
+    background: rgba(0,0,0,0.3);
+    padding: 5px 0 0 0;
+    font-family: 'roboto';
+    margin: 0 0 20px 0;
+    height: 142px;
+}
+
+
+.container {
+	padding: 0;
+	margin: 0 auto;
+	width: 980px;
+    text-align: center;
+    height: 80px;
+}
+.header .top-header {
+	margin: 5px 0;
+    height: 60px;
+}
+.header .logo {
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    height: 100%;
+}
+.left{
+    float: left;
+}
+.header  img {
+    height: 60px;
+    margin-bottom: 50px;
+}
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+a {
+    color: #337ab7;
+    text-decoration: none
+}
+
+a:hover,a:focus {
+    color: #23527c;
+    text-decoration: underline
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+a {
+    background-color: transparent
+}
+
+a:active,a:hover {
+    outline: 0
+}
+img {
+    vertical-align: middle
+}
+.header .right-header {
+	width: 728px;
+	float: right;
+    height: 100%;
+}
+.search{
+    width: 350px;
+    float: left;
+    margin: 15px 0px 8px 0px;
+}
+.relative{
+    position: relative;
+}
+#keyword{
+    color: #000;
+    border: 1px solid #353535;
+    padding: 5px;
+    font-style: italic;
+    width: 97%;
+    outline: none;
+    transition: all 0.3s ease;
+}
+#keyword:focus {
+	border-color: #fff601;
+}
+
+input,button,select,textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+button,input,optgroup,select,textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit
+}
+.header #box-user {
+	padding: 5px;
+}
+.right{
+    float: right;
+}
+.header .action-user ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.header .action-user a {
+	color: #fff;
+}
+.header .action-user a:hover {
+	color: #ccc;
+}
+
+.header .action-user .fa {
+	color: #FFFFFF;
+	margin-right: 4px;
+}

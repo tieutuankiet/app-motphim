@@ -1,6 +1,6 @@
 function Footer(){
     return(
-        <div className="wrapper-header">
+        <div className="footer">
 
         </div>
     )

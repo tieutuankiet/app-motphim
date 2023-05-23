@@ -10,15 +10,13 @@
   }
   
   /* Thiết lập CSS cho body và html */
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-size: var(--font-size);
-    font-family: var(--font-family);
-    line-height: 1.42857143;
-    color: var(--text-color);
-    background-color: var(--bg-color);
+  body,
+  html {
+    background: #1a1a1a;
+      margin: 0;
+      font-family: Arial,Tahoma;
+      font-size: 14px;
+      color: #dcdcdc;
   }
   
   /* Thiết lập CSS cho body */
@@ -27,4 +25,12 @@
     line-height: 1.42857143;
     color: var(--text-color);
     background-color: var(--bg-color);
+    
   }
+ul,span,p,div {
+    margin: 0;
+    padding: 0;
+  }
+.header {
+    background: #333333;
+}
