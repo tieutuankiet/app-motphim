@@ -1,0 +1,26 @@
+.main-menu{
+    height: 65px;
+    width: 100%;
+}
+.menu{
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    .menu-item{
+        flex-grow: 1;
+        list-style: none;
+        float: left;
+        position: relative;
+
+        a{
+            color: #ffffff;
+            text-transform: uppercase;
+            font-weight: normal;
+            padding: 20px 20px 20px 0px;
+            display: block;
+            font-size: 14px;
+            white-space: nowrap;
+            text-align: left;
+        }
+    }
+}
