@@ -1,26 +1,71 @@
 .main-menu{
     height: 65px;
     width: 100%;
-}
-.menu{
-    padding: 0;
-    margin: 0 auto;
-    display: flex;
-    .menu-item{
-        flex-grow: 1;
-        list-style: none;
-        float: left;
-        position: relative;
 
-        a{
-            color: #ffffff;
-            text-transform: uppercase;
-            font-weight: normal;
-            padding: 20px 20px 20px 0px;
+    .menu{
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        .menu-item:hover .sub-menu{
             display: block;
-            font-size: 14px;
-            white-space: nowrap;
-            text-align: left;
+        }
+        .menu-item a:hover {background-color: #f1f1f1}
+
+        .menu-item{
+            position: relative;
+            display: inline-block;
+            flex-grow: 1;
+            a{
+                color: #ffffff;
+                text-transform: uppercase;
+                font-weight: normal;
+                padding: 20px 20px 20px 0px;
+                display: block;
+                font-size: 14px;
+                white-space: nowrap;
+                text-align: left;
+            }     
+            a:hover {background-color: #383232}
+            li{
+                list-style: none;
+            }
+            .sub-menu{
+                display: none;
+                position: absolute;
+                background-color: #2d2d2d;
+                top: 110%;
+                left: 0;
+                z-index: 101;
+
+                .sub-menu-item{
+                    width: 20%;
+                    float: left;
+                    a{
+                        display: block;
+                        text-transform: none;
+                        padding: 10px;
+                        font-weight: normal;
+                        font-size: 14px;
+                    }
+                }
+                .span-3{
+                    width: 100%;
+                    float: left;
+                    a{
+                        display: block;
+                        text-transform: none;
+                        padding: 10px;
+                        font-weight: normal;
+                        font-size: 14px;
+                    }     
+                }
+            }
+            .span{
+                width: 800px;
+            }
+            .span-2{
+                width: 685px;
+            }
         }
     }
 }

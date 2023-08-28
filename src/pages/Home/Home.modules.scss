@@ -1,0 +1,104 @@
+.list-film-hot{
+    position: relative;
+    top: 30px;
+    a{
+        color: whitesmoke;
+    }
+    .btnLeft{
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        z-index: 20;
+        transform-origin: center;
+        cursor: pointer;
+        background-color: rgba(0,0,0,0.5);
+        height: 60px;
+        width: 50px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        
+        &:hover{
+            background-color: rgba(0,0,0,0.8);
+        }
+        &:hover svg{
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        svg{
+            opacity: 0.7;
+            font-size: 40px;
+            transition: all 0.3 linear;
+        }
+    }
+    .btnRight{
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        z-index: 20;
+        transform-origin: center;
+        cursor: pointer;
+        background-color: rgba(0,0,0,0.5);
+        height: 60px;
+        width: 50px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        
+        &:hover{
+            background-color: rgba(0,0,0,0.8);
+        }
+        &:hover svg{
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        svg{
+            opacity: 0.7;
+            font-size: 40px;
+            transition: all 0.3 linear;
+        }
+    }
+
+    .movie-slider{
+        display: grid;
+        grid-template-columns: repeat(20 ,auto);
+        position: relative;
+        top: 20px;
+        overflow-x: auto;
+        overflow: hidden;
+        overflow-y: hidden;
+        user-select: none;
+        scroll-behavior: smooth;
+        height: 270px;
+        transition: all 0.3 linear;
+        .movieItem{
+            color: whitesmoke;
+            height: 250px;
+            user-select: none;
+            margin-right: 20px;
+            transform: scale(1);
+            transition: all 0.3s linear;
+            position: relative;
+            img{
+                border-radius: 10px;
+                width: 200px;
+                height: 250px;
+            }
+            &:hover{
+                transform: scale(1.1);
+                z-index: 10;
+            }
+            .movieName{
+                position: absolute;
+                height: 20px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: -1;
+                text-align: center;
+                font-size: 14px;
+                background-color: rgb(59, 57, 57);
+            }
+        }
+    }
+}
