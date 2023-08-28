@@ -4,8 +4,7 @@ import classNames from 'classnames/bind';
 import styles from './Home.modules.scss'
 import {FaChevronLeft,FaChevronRight} from "react-icons/fa";
 import Slider from 'react-slick';
-import "~slick-carousel/slick/slick.css"; 
-import "~slick-carousel/slick/slick-theme.css";
+
 
 const cx = classNames.bind(styles);
 function Home(){
